@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 
-const STYLES = `
+const STYLES = 
   @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Share+Tech+Mono&family=Rajdhani:wght@300;400;600;700&display=swap');
 
   :root {
@@ -17,7 +17,7 @@ const STYLES = `
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; zoom: 0.8; }
+  html { scroll-behavior: smooth; }
   body {
     background: var(--abyss);
     color: var(--tp);
@@ -132,7 +132,7 @@ const STYLES = `
 
   /* page reveal */
   .page-in { animation: crackIn 0.55s ease-out both; }
-`;
+;
 
 /* ── Crack lines SVG paths ── */
 const CRACK_PATHS = [
